@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>image/arrow-44-32.png</file>
+    <file>image/coffee-7-32.png</file>
+    <file>image/paypal-2-32.png</file>
+    <file>image/youtube-6-32.png</file>
+    <file>image/battery-4-32.png</file>
+    <file>image/bar-2-32.png</file>
+    <file>image/battery-4-32.png</file>
+    <file>image/grapes-32.png</file>
+    <file>image/grapes-33.png</file>
+    <file>image/home-4-32.png</file>
+    <file>image/text-32.png</file>
+    <file>image/truck-2-32.png</file>
+    <file>image/wine-bottle-32.png</file>
+    <file>image/help-32.png</file>
+    <file>image/wine.png</file>
+    <file>image/maximize-window-32.png</file>
+    <file>image/menu-4-32.png</file>
+    <file>image/minus-6-32.png</file>
+    <file>image/x-mark-5-32.png</file>
+  </qresource>
+</RCC>

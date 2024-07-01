@@ -1,0 +1,42 @@
+{
+  "1": {
+    "titre": "Pr\u00e9parer les cerises",
+    "description": "Lavez les cerises, \u00e9queutez-les, d\u00e9noyautez-les puis r\u00e9servez-les dans un saladier. Pour gagner du temps, vous pouvez utiliser un d\u00e9noyauteur de cerises ou un trombone en forme d'hame\u00e7on pour enlever les noyaux."
+  },
+  "2": {
+    "titre": "Pr\u00e9parer les pommes de terre",
+    "description": "\u00c9pluchez et coupez les pommes de terre en rondelles puis faites-les cuire \u00e0 l'eau ou \u00e0 la vapeur pendant environ 20 minutes. Elles doivent \u00eatre l\u00e9g\u00e8rement fermes. Pendant ce temps, pr\u00e9chauffez votre four \u00e0 200\u00b0C."
+  },
+  "3": {
+    "titre": "Pr\u00e9parer l'oignon et l'ail",
+    "description": "Pelez et \u00e9mincez l'oignon et l'ail puis faites-les revenir dans une po\u00eale avec un peu d'huile d'olive jusqu'\u00e0 ce qu'ils soient l\u00e9g\u00e8rement dor\u00e9s."
+  },
+  "4": {
+    "titre": "Faire revenir le lard",
+    "description": "Coupez le lard en petits lardons et faites-les revenir dans une autre po\u00eale jusqu'\u00e0 ce qu'ils soient bien dor\u00e9s. \u00c9gouttez-les sur du papier absorbant pour enlever l'exc\u00e8s de gras."
+  },
+  "5": {
+    "titre": "Laisser refroidir les pommes de terre",
+    "description": "Une fois cuites, \u00e9gouttez les pommes de terre et laissez-les refroidir pendant quelques minutes avant de les disposer dans un plat \u00e0 gratin."
+  },
+  "6": {
+    "titre": "Incorporer les cerises, l'oignon et l'ail",
+    "description": "Ajoutez les cerises, l'oignon et l'ail aux pommes de terre dans le plat \u00e0 gratin. M\u00e9langez bien pour r\u00e9partir les ingr\u00e9dients."
+  },
+  "7": {
+    "titre": "Ajouter le lard",
+    "description": "R\u00e9partissez les lardons sur le dessus du m\u00e9lange de pommes de terre et cerises dans le plat \u00e0 gratin."
+  },
+  "8": {
+    "titre": "Pr\u00e9parer la cr\u00e8me fra\u00eeche",
+    "description": "Dans un bol, m\u00e9langez la cr\u00e8me fra\u00eeche, la muscade et le sel jusqu'\u00e0 obtenir un m\u00e9lange homog\u00e8ne."
+  },
+  "9": {
+    "titre": "Verser la cr\u00e8me fra\u00eeche",
+    "description": "Versez la cr\u00e8me fra\u00eeche sur le dessus du plat \u00e0 gratin en r\u00e9partissant bien sur toute la surface."
+  },
+  "10": {
+    "titre": "Enfourner la tartiflette",
+    "description": "Mettez votre plat \u00e0 gratin dans un four pr\u00e9chauff\u00e9 \u00e0 200\u00b0C et laissez cuire pendant 25 \u00e0 30 minutes jusqu'\u00e0 ce que le dessus soit bien dor\u00e9. Sortez-le du four, laissez refroidir quelques minutes avant de servir et r\u00e9galez-vous !"
+  }
+}

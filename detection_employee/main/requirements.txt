@@ -1,0 +1,7 @@
+requests
+prettytable
+tqdm
+Pillow
+scikit-learn
+opencv-python
+numpy

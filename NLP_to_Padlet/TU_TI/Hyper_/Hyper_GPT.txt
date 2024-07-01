@@ -1,0 +1,49 @@
+La gestion des hyperparamètres est cruciale pour entraîner efficacement un modèle GPT comme ChatGPT. 
+Les hyperparamètres sont des variables externes au modèle qui affectent son processus d'entraînement et ses performances. 
+Voici quelques hyperparamètres importants à prendre en compte :
+
+Nombre de couches (num_layers) : 
+Cela définit la profondeur du modèle. 
+En général, un nombre plus élevé de couches permet au modèle d'apprendre des représentations plus complexes, mais cela augmente également le coût computationnel.
+
+Nombre de têtes d'attention (num_heads) : 
+Les têtes d'attention permettent au modèle de se concentrer sur différentes parties de la séquence d'entrée. 
+Un nombre plus élevé de têtes permet une attention plus fine, mais aussi un entraînement plus coûteux.
+
+Taille des embeddings (embedding_size) : 
+Cela définit la dimension de l'espace dans lequel les mots sont représentés. 
+Un espace de plus grande dimension peut capturer des relations plus complexes, mais nécessite également plus de ressources.
+
+Taille de la séquence d'entrée (max_sequence_length) : 
+Il s'agit de la longueur maximale des séquences d'entrée que le modèle peut traiter. 
+Il est important de choisir une taille appropriée en fonction de la nature des données.
+
+Taux d'apprentissage (learning_rate) : 
+Contrôle la taille des pas que le modèle prend lors de la mise à jour des poids pendant l'entraînement. 
+Un taux d'apprentissage trop élevé peut conduire à une instabilité, tandis qu'un taux trop bas peut entraîner une convergence lente.
+
+Batch size : 
+C'est le nombre d'exemples d'entraînement utilisés dans une itération. 
+Un batch size plus grand peut accélérer l'entraînement, mais nécessite également plus de mémoire GPU.
+
+Nombre d'itérations (num_epochs) : 
+Définit le nombre de fois que l'ensemble de données complet est parcouru lors de l'entraînement. 
+Il est important de surveiller le surajustement (overfitting) en ajustant ce paramètre.
+
+Dropout : 
+Le dropout est une technique de régularisation qui consiste à désactiver aléatoirement certains neurones pendant l'entraînement pour éviter le surajustement.
+
+
+Poids de régularisation (weight_decay) : 
+Contrôle la force de la régularisation L2 pour éviter les poids trop grands.
+
+Fonction d'activation : 
+Le choix de la fonction d'activation (ReLU, tanh, etc.) peut avoir un impact significatif sur les performances du modèle.
+
+Taille du vocabulaire : 
+C'est le nombre total de mots uniques dans le vocabulaire du modèle. 
+Un vocabulaire plus grand permet de capturer une plus grande diversité de mots, mais cela peut augmenter la complexité.
+
+L'ajustement des hyperparamètres peut nécessiter une approche expérimentale. 
+Il est courant d'utiliser des techniques telles que la recherche par grille ou la recherche aléatoire pour trouver la combinaison optimale d'hyperparamètres. 
+Il est également important de surveiller les performances du modèle sur un ensemble de validation pour éviter le surajustement.
