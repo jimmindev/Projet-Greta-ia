@@ -14,11 +14,12 @@ Ce projet vise à développer un système de gestion complet pour une coopérati
 
 ## État du Projet
 
+Le projet est toujours en cours de développement.
 Actuellement, les composantes suivantes ont été mises en place :
 
 - Installation d'Ollama et Mistral en local.
 - Mise en place de la base de données MySQL.
-- Développement de l'interface utilisateur (voir `interface.jpg`).
+- Développement de l'interface utilisateur
+![interface](interface.jpg)
 
-Le projet est toujours en cours de développement.
 
