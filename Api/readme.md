@@ -31,19 +31,21 @@ Exécutez l'application Flask :
 python app.py 
 ```
 
-L'API sera disponible à l'adresse http://ip:5000.
+L'API sera disponible à l'adresse http://192.168.20.24:5000.
 
 ## Points de terminaison
-GET **/select/<table>** : Récupère tous les enregistrements de la table spécifiée. Nécessite un jeton JWT valide.
-POST **/insert/<table>** : Insère un nouvel enregistrement dans la table spécifiée. Nécessite un jeton JWT valide.
-PUT **/update/<table>/<id>** : Met à jour l'enregistrement avec l'ID spécifié dans la table spécifiée. Nécessite un jeton JWT valide.
-DELETE **/delete/<table>/<id>** : Supprime l'enregistrement avec l'ID spécifié de la table spécifiée. Nécessite un jeton JWT valide.
-GET **/get_token/<login>/<password>** : Génère un jeton JWT pour les identifiants d'utilisateur spécifiés.
+- GET **/select/<table>** : Récupère tous les enregistrements de la table spécifiée. Nécessite un jeton JWT valide.
+- POST **/insert/<table>** : Insère un nouvel enregistrement dans la table spécifiée. Nécessite un jeton JWT valide.
+- PUT **/update/<table>/<id>** : Met à jour l'enregistrement avec l'ID spécifié dans la table spécifiée. Nécessite un jeton JWT valide.
+- DELETE **/delete/<table>/<id>** : Supprime l'enregistrement avec l'ID spécifié de la table spécifiée. Nécessite un jeton JWT valide.
+- GET **/get_token/<login>/<password>** : Génère un jeton JWT pour les identifiants d'utilisateur spécifiés.
+
 Middleware
 Le middleware token_required est utilisé pour vérifier et décoder le jeton JWT dans les en-têtes de la requête. Si le jeton est manquant, expiré ou invalide, le middleware renverra une réponse d'erreur appropriée.
 
 ## Gestion des erreurs
-L'application inclut une gestion des erreurs de base pour les opérations de base de données et le décodage du jeton JWT. Si une erreur inattendue se produit, le serveur renverra une réponse d'erreur 500 avec un message.
+L'application inclut une gestion des erreurs de base pour les opérations de base de données et le décodage du jeton JWT. 
+Si une erreur inattendue se produit, le serveur renverra une réponse d'erreur 500 avec un message.
 
 ## Sécurité
 Les jetons JWT sont utilisés pour l'authentification.
