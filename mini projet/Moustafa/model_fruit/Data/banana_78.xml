@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Data</folder>
+	<filename>banana_78.jpg</filename>
+	<path>D:\Github\Projet Greta ia\mini projet\Moustafa\model_fruit\Data\banana_78.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>200</width>
+		<height>200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>banane</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>7</ymin>
+			<xmax>109</xmax>
+			<ymax>193</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>banane</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>111</xmin>
+			<ymin>18</ymin>
+			<xmax>177</xmax>
+			<ymax>200</ymax>
+		</bndbox>
+	</object>
+</annotation>

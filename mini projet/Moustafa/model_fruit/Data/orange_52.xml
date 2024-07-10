@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Data</folder>
+	<filename>orange_52.jpg</filename>
+	<path>D:\Github\Projet Greta ia\mini projet\Moustafa\model_fruit\Data\orange_52.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>200</width>
+		<height>200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>orange</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>91</xmin>
+			<ymin>73</ymin>
+			<xmax>156</xmax>
+			<ymax>151</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>orange</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>144</xmin>
+			<ymin>60</ymin>
+			<xmax>200</xmax>
+			<ymax>140</ymax>
+		</bndbox>
+	</object>
+</annotation>
